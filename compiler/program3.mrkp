@@ -1,0 +1,40 @@
+#CONTEXT move_to_end
+#VAR nums 0123456789abcdef
+!${nums}->${nums}!
+#ENDCONTEXT
+
+#CONTEXT aboba
+!->@
+%->.
+#ENDCONTEXT
+
+#CONTEXT decr
+#VAR pnums 123456789abcdef
+${pnums}@->%${hex(int(pnums, 16) - 1)[2:]}
+#ENDCONTEXT
+
+#CONTEXT decr_zero
+#VAR pnums 23456789abcdef
+${pnums}0@->%${hex(int(pnums, 16) - 1)[2:]}f
+#ENDCONTEXT
+
+#CONTEXT decr_
+10@->&0f
+00@->0@f
+#ENDCONTEXT
+
+#CONTEXT move_to_end
+#VAR nums 0123456789abcdef
+${nums}&->&${nums}
+#ENDCONTEXT
+
+#CONTEXT end
+&0->&
+&->%
+@->%
+#ENDCONTEXT
+
+#CONTEXT create_mark
+#VAR nums 0123456789abcdef
+${nums}->!${nums}
+#ENDCONTEXT

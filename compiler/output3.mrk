@@ -1,0 +1,190 @@
+// Compiled with tup 0.1a
+
+
+// Context 'move_to_end'
+// Snapshot: {'nums': '0'}
+!0->0!
+// Snapshot: {'nums': '1'}
+!1->1!
+// Snapshot: {'nums': '2'}
+!2->2!
+// Snapshot: {'nums': '3'}
+!3->3!
+// Snapshot: {'nums': '4'}
+!4->4!
+// Snapshot: {'nums': '5'}
+!5->5!
+// Snapshot: {'nums': '6'}
+!6->6!
+// Snapshot: {'nums': '7'}
+!7->7!
+// Snapshot: {'nums': '8'}
+!8->8!
+// Snapshot: {'nums': '9'}
+!9->9!
+// Snapshot: {'nums': 'a'}
+!a->a!
+// Snapshot: {'nums': 'b'}
+!b->b!
+// Snapshot: {'nums': 'c'}
+!c->c!
+// Snapshot: {'nums': 'd'}
+!d->d!
+// Snapshot: {'nums': 'e'}
+!e->e!
+// Snapshot: {'nums': 'f'}
+!f->f!
+// Next context
+
+// Context 'aboba'
+// Snapshot: {}
+!->@
+%->.
+// Next context
+
+// Context 'decr'
+// Snapshot: {'pnums': '1'}
+1@->%0
+// Snapshot: {'pnums': '2'}
+2@->%1
+// Snapshot: {'pnums': '3'}
+3@->%2
+// Snapshot: {'pnums': '4'}
+4@->%3
+// Snapshot: {'pnums': '5'}
+5@->%4
+// Snapshot: {'pnums': '6'}
+6@->%5
+// Snapshot: {'pnums': '7'}
+7@->%6
+// Snapshot: {'pnums': '8'}
+8@->%7
+// Snapshot: {'pnums': '9'}
+9@->%8
+// Snapshot: {'pnums': 'a'}
+a@->%9
+// Snapshot: {'pnums': 'b'}
+b@->%a
+// Snapshot: {'pnums': 'c'}
+c@->%b
+// Snapshot: {'pnums': 'd'}
+d@->%c
+// Snapshot: {'pnums': 'e'}
+e@->%d
+// Snapshot: {'pnums': 'f'}
+f@->%e
+// Next context
+
+// Context 'decr_zero'
+// Snapshot: {'pnums': '2'}
+20@->%1f
+// Snapshot: {'pnums': '3'}
+30@->%2f
+// Snapshot: {'pnums': '4'}
+40@->%3f
+// Snapshot: {'pnums': '5'}
+50@->%4f
+// Snapshot: {'pnums': '6'}
+60@->%5f
+// Snapshot: {'pnums': '7'}
+70@->%6f
+// Snapshot: {'pnums': '8'}
+80@->%7f
+// Snapshot: {'pnums': '9'}
+90@->%8f
+// Snapshot: {'pnums': 'a'}
+a0@->%9f
+// Snapshot: {'pnums': 'b'}
+b0@->%af
+// Snapshot: {'pnums': 'c'}
+c0@->%bf
+// Snapshot: {'pnums': 'd'}
+d0@->%cf
+// Snapshot: {'pnums': 'e'}
+e0@->%df
+// Snapshot: {'pnums': 'f'}
+f0@->%ef
+// Next context
+
+// Context 'decr_'
+// Snapshot: {}
+10@->&0f
+00@->0@f
+// Next context
+
+// Context 'move_to_end'
+// Snapshot: {'nums': '0'}
+0&->&0
+// Snapshot: {'nums': '1'}
+1&->&1
+// Snapshot: {'nums': '2'}
+2&->&2
+// Snapshot: {'nums': '3'}
+3&->&3
+// Snapshot: {'nums': '4'}
+4&->&4
+// Snapshot: {'nums': '5'}
+5&->&5
+// Snapshot: {'nums': '6'}
+6&->&6
+// Snapshot: {'nums': '7'}
+7&->&7
+// Snapshot: {'nums': '8'}
+8&->&8
+// Snapshot: {'nums': '9'}
+9&->&9
+// Snapshot: {'nums': 'a'}
+a&->&a
+// Snapshot: {'nums': 'b'}
+b&->&b
+// Snapshot: {'nums': 'c'}
+c&->&c
+// Snapshot: {'nums': 'd'}
+d&->&d
+// Snapshot: {'nums': 'e'}
+e&->&e
+// Snapshot: {'nums': 'f'}
+f&->&f
+// Next context
+
+// Context 'end'
+// Snapshot: {}
+&0->&
+&->%
+@->%
+// Next context
+
+// Context 'create_mark'
+// Snapshot: {'nums': '0'}
+0->!0
+// Snapshot: {'nums': '1'}
+1->!1
+// Snapshot: {'nums': '2'}
+2->!2
+// Snapshot: {'nums': '3'}
+3->!3
+// Snapshot: {'nums': '4'}
+4->!4
+// Snapshot: {'nums': '5'}
+5->!5
+// Snapshot: {'nums': '6'}
+6->!6
+// Snapshot: {'nums': '7'}
+7->!7
+// Snapshot: {'nums': '8'}
+8->!8
+// Snapshot: {'nums': '9'}
+9->!9
+// Snapshot: {'nums': 'a'}
+a->!a
+// Snapshot: {'nums': 'b'}
+b->!b
+// Snapshot: {'nums': 'c'}
+c->!c
+// Snapshot: {'nums': 'd'}
+d->!d
+// Snapshot: {'nums': 'e'}
+e->!e
+// Snapshot: {'nums': 'f'}
+f->!f
+// Next context
